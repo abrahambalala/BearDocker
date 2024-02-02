@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ ! -e '/usr/bin/bear' ]; then
-    curl -L -H "Cache-Control: no-cache" -o /tmp/beartmp/bear.zip https://github.com/abrahambalala/Bear/releases/download/v4.32.1/bear-linux-x64-v4.32.1.zip
+    curl -L -H "Cache-Control: no-cache" -o /tmp/beartmp/bear.zip https://github.com/abrahambalala/Bear/releases/download/${Bear_VERSION}/bear-linux-x64-${Bear_VERSION}.zip
     unzip /tmp/beartmp/bear.zip -d /tmp/beartmp
     chmod +x /tmp/beartmp/bear
     mv /tmp/beartmp/* /usr/bin/bear/
