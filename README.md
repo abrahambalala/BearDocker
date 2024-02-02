@@ -1,6 +1,6 @@
 BearDocker
 ---
-- Default ENV
+Default ENV
 - Nginx_PORT=8080
 - Nginx_PROXY_PORT=22333
 - Nginx_PROXY_PATH=downloads
